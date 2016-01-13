@@ -1,0 +1,126 @@
+/* 
+  Localizable.strings
+  MyGov
+
+  Created by Alpha on 27.03.14.
+  Copyright (c) 2014 Global Solutions. All rights reserved.
+*/
+
+
+"AUTH_ID_BUTTON" = "Kirish ID orqali";
+
+"MAIN_TITLE_SETTINGS" = "Sozlash";
+"MAIN_TITLE_MENU" = "Ягона пештоқ давлат интерфаол хизматлар";
+
+"NT_HISTORY" = "O'tishlar tarixi";
+"AB_TITLE" = "Dastur haqida";
+
+"MBUTTON_1" = "O'tishlar tarixi";
+"MBUTTON_2" = "Shikoyatlar yuborish";
+"MBUTTON_3" = "Call-center";
+"MBUTTON_4" = "Dastur haqida";
+"MBUTTON_5" = "Sozlamalar";
+
+"DH_LEFT_NAME" = "Ism:";
+"DH_LEFT_NAME" = "Telefon:";
+"DH_LEFT_NAME" = "Soha:";
+"DH_LEFT_NAME" = "Ko'rinish:";
+"DH_LEFT_NAME" = "Status:";
+"DH_LEFT_NAME" = "Mavzu:";
+"DH_LEFT_NAME" = "Matn:";
+"DH_LEFT_NAME" = "Hukumat organlarini javobi:";
+"DH_LEFT_NAME" = "Javobni baholash:";
+
+"DH_RIGHT_STATUS" = "Homaki nusxa";
+"DH_RIGHT_STATUS" = "Yangi";
+"DH_RIGHT_STATUS" = "Jarayonida";
+"DH_RIGHT_STATUS" = "Jarayon tugatilgan";
+"DH_RIGHT_STATUS" = "Bekor qilingan";
+
+"DH_OPEN_FILE_TITLE" = "Qo'shimcha oching";
+
+"PA_GET_INFO" = "Rasmiylashtirmoq";
+"PA_PICK_DATA_TITLE" = "Sanani tanlang";
+"PA_CANCEL" = "Bekor qilmoq";
+"PA_CANCEL" = "Tayyor";
+"PA_GENDER_MALE" = "Erkak";
+"PA_GENDER_FEMALE" = "Ayol";
+"PA_EMPTY_FIELD" = "Bo'sh katakcha, iltimos ma'lumotlaringizni kiriting!";
+
+"PA_NEXT_STEP" = "Keyingi qadam";
+"PA_PREV_STEP" = "Oldingi qadam";
+"PA_SEND_BUTTON" = "Yubormoq";
+
+"PA_LEFT_FIO" = "F.I.O.";
+"PA_LEFT_EMAIL" = "E-mail";
+"PA_LEFT_PHONE" = "telefor raqam";
+"PA_LEFT_GENDER" = "Jins";
+"PA_LEFT_BIRTH" = "Tug'ilgan kun";
+"PA_LEFT_PASSPORT" = "Pasport seriya raqami";
+"PA_LEFT_PASS_GIVEN_WHO" = "Kim tomonidan berilgan";
+"PA_LEFT_LIVE_PLACE" = "Yashash joy";
+"PA_LEFT_PASS_GIVEN_DATE" = "Berilgan muddati";
+"PA_LEFT_PASS_TILL_DATE" = "Amal qilish muddati";
+
+"PA_HOLDER" = "Familiyangiz, ismingiz va otangizni ismini kiriting";
+"PA_HOLDER" = "E-mailingizni kiriting";
+"PA_HOLDER" = "+998...";
+"PA_HOLDER" = "Tug'ilgan sanangizni kiriting";
+"PA_HOLDER" = "Pasport seriya va raqamingizni kiriting";
+
+"PA_DATE_PICKED" = "Sanani tanglang: ";
+
+"PA_FILL_EMPTY_FIELD" = "Iltimos, bo'sh hududni to'ldiring!";
+"PA_FILL_INCORRECT" = "To'ldirilgan hudud noto'gri!";
+"PA_FILL_GENDER" = "Jinsni tanglang Выберите половую пренадлежность!";
+"PA_FILL_DATE" = "Iltimos, sanani tanglang!";
+
+"PA_FILL_FROM_TABLE" = "Jadvaldan qiymatni tanlang!";
+"PA_FILL_ADD" = "Fayl qo'shish!";
+
+"PA_FILL_FIELD" = "Hudud to'ldirilmagan, iltimos ma'lumotlaringizni kiriting!";
+
+"PA_PICK_SCOPE" = "Davo sohasi";
+"PA_PICK_TYPE" = "Davo turi";
+"PA_PICK_VISIBILITY" = "Arizaning ko'rinishi";
+"PA_PICK_THEME" = "Davo mavzusi";
+"PA_PICK_TEXT" = "Davo matni";
+"PA_PICK_FILE" = "Faylni tanlang";
+"PA_PICK_RESPONSE_TYPE" = "Javobni qabul qilish turi";
+"PA_PICK_" = "Davo matni";
+"PA_PICK_" = "Davo matni";
+
+"PA_PICK_HOLDER_" = "Davo sohasini tanlang";
+"PA_PICK_HOLDER_" = "Davo turini tanlang";
+"PA_PICK_HOLDER_" = "Gallereyadan rasim tanlang";
+"PA_PICK_HOLDER_" = "Javob qabul qilish turini tanlang";
+
+"ST_CHANGE_LANG" = "Tilni o'zgartirish";
+"ST_LANG" = "Til: ";
+"ST_RUSSIAN" = "Ruscha";
+"ST_UZBEK" = "O'zbekcha";
+
+"AV_LOADING_DATA" = "Ma'lumotlar yuklanyapti...";
+"AV_CHECK_CONNECTION" = "Internet ulanishini tekshiring";
+"AV_CHECK_ID_PROFILE" = "Akkaunt to'liq yuklanmadi.";
+"AV_LOGIN_ERROR" = "Tizimga kirish amalga oshmadi";
+"AV_RATE" = "Davoni baholash...";
+"AV_LOADING_FILE" = "Fayl yuklanyapti...";
+"AV_RATE_STATUS_SUCCESS" = "Siznii bahoyingiz muvaffaqiyatli bajarildi!";
+"AV_RATE_STATUS_NOTALLOWEED" = "Afsuski, tayyorlangan murojaatni qayta baholash mumkin emas!";
+"AV_RATE_STSTUS_ALREADY_RATED" = "Siz bu murojati allaqachon baholagansiz!";
+"AV_FILE_ACCEPTED" = "Fayl muvaffaqiyatli qabul qilindi!";
+"AV_MISSING_FILE" = "Fayl yo'qolgan!";
+"AV_NOT_PROCESSED_YET" = "Murojat hali yuklanmadi!";
+"AV_FILE_NOT_EXIST" = "Fayl kiritilmagan!";
+"AV_FILE_EMPTY_OR_NOT_EXIST" = "Fayl yo'qolgan yoki faol emas!";
+"AV_SENDING_APPEAL" = "Yuborish...";
+"AV_SENDED_APPEAL_SUCCESS" = "Sizning murojaat muvaffaqiyatli yuborildi!";
+
+"AV_OK" = "OK";
+
+"AV_REMIND" = "Xabar berish";
+
+"AV_ERROR_TITLE" = "Xatolik";
+
+"AV_MAX_GOVERMENT_NUMBER" = "Tanlangan davlat organlari maksimal soni 5taga teng";

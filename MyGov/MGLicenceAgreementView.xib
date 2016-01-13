@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" placeholderIntrinsicWidth="400" placeholderIntrinsicHeight="600" id="jPU-kW-rYK" customClass="MGLicenceAgreementView">
+            <rect key="frame" x="0.0" y="0.0" width="280" height="400"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" placeholderIntrinsicWidth="38" placeholderIntrinsicHeight="22" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9UL-yt-aya">
+                    <rect key="frame" x="19" y="366" width="40" height="22"/>
+                    <connections>
+                        <action selector="switched:" destination="jPU-kW-rYK" eventType="valueChanged" id="BCi-1t-0MS"/>
+                    </connections>
+                </switch>
+                <textView clipsSubviews="YES" tag="1112" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8MN-a6-wLt">
+                    <rect key="frame" x="8" y="37" width="264" height="323"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <mutableString key="text">Уважаемый пользователь!
+даный портал предоставляет Вам возможности по отправке обращений в электронной форме, что проще и гораздо удобнее личной явки в государственные организации или отправки писем в бумажном виде. При этом, направляемый Вами запрос является официальным.
+
+В связи с этим, просим Вас не забывать следующее:
+
+1. Обращения от пользователей, указавших некорректные сведения о себе или не изложившие суть обращения, рассматриваться не будут, в соответствии со статьей 6 Закона Республики Узбекистан об обращениях граждан.
+2. Подача гражданином обращений, содержащих клевету, оскорбления и ложные доносы, влекут за собой ответственность в соответствии со статьей 26 Закона Республики Узбекистан об обращениях граждан, статьями 40 - 41  кодекса Республики Узбекистан об административной ответственности, статьями 139 - 140, 237 Уголовного кодекса Республики Узбекистан.
+3. Расходы, понесенные государственным органом в связи с проверкой обращений, содержащих заведомо ложные сведения, могут быть изысканы с гражданина в соответствии со статьей 27 Закона Республики Узбекистан Об обращениях граждан.
+
+Вместе с этим, в случае, если государственный орган направил Вам ответ не по существу, нарушил установленные законодательством сроки, принял необоснованное, противоречащее закону решение по Вашему обращению или каким-либо иным образом нарушил Ваши права, установленные законодательством об обращениях граждан, Вы можете обжаловать такие действия в вышестоящую организацию или в суд.
+
+Убедительно просим Вас после получения ответа государственной организации, объективно оценить его по пятибалльной шкале. Голос каждого пользователя имеет значение при оценке качества работы государственных организаций с обращениями юридических и физических лиц.</mutableString>
+                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <button opaque="NO" tag="1113" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3XL-Hx-QFe">
+                    <rect key="frame" x="194" y="366" width="78" height="30"/>
+                    <state key="normal" title="Согласен">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="agreePressed:" destination="jPU-kW-rYK" eventType="touchUpInside" id="ttD-OU-Yf7"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" tag="1111" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Оферта" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ct3-Ki-pqn">
+                    <rect key="frame" x="106" y="8" width="68" height="21"/>
+                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="agreeBtn" destination="3XL-Hx-QFe" id="krw-Cq-9up"/>
+                <outlet property="agreeOrNot" destination="9UL-yt-aya" id="zxJ-Xg-xsc"/>
+                <outlet property="agreementTextView" destination="8MN-a6-wLt" id="p1u-7b-MZd"/>
+                <outlet property="licenceLabel" destination="Ct3-Ki-pqn" id="zed-9p-fE9"/>
+            </connections>
+            <point key="canvasLocation" x="357" y="-140"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,146 @@
+/* 
+  Localizable.strings
+  MyGov
+
+  Created by Alexander Makshov on 27.03.14.
+  Copyright (c) 2014 Global Solutions. All rights reserved.
+*/
+
+// Авторизация
+"AUTH_ID_BUTTON" = "Войти через ID";
+
+"MAIN_TITLE_SETTINGS" = "Настройки";
+
+// Главный экран - меню
+
+"MBUTTON_1" = "История обращений";
+"MBUTTON_2" = "Подать обращение";
+"MBUTTON_3" = "Call центр";
+"MBUTTON_4" = "О приложении";
+"MBUTTON_5" = "Настройки";
+
+// История обращений
+
+// Детальрня история обращений
+"DH_LEFT_NAME" = "Имя:";
+"DH_LEFT_NAME" = "Телефон:";
+"DH_LEFT_NAME" = "Сфера:";
+"DH_LEFT_NAME" = "Вид:";
+"DH_LEFT_NAME" = "Статус:";
+"DH_LEFT_NAME" = "Тема:";
+"DH_LEFT_NAME" = "Текст:";
+"DH_LEFT_NAME" = "Ответ Гос. Органа:";
+"DH_LEFT_NAME" = "Оценить ответ:";
+
+"DH_RIGHT_STATUS" = "Черновик";
+"DH_RIGHT_STATUS" = "Новое";
+"DH_RIGHT_STATUS" = "В обработке";
+"DH_RIGHT_STATUS" = "Обработано";
+"DH_RIGHT_STATUS" = "Аннулировано";
+
+"DH_OPEN_FILE_TITLE" = "Открыть вложение";
+
+
+// Отправка обращения
+
+"PA_GET_INFO" = "Идентифицироваться";
+"PA_PICK_DATA_TITLE" = "Выберите дату";
+"PA_CANCEL" = "Отмена";
+"PA_CANCEL" = "Готово";
+"PA_GENDER_MALE" = "Мужской";
+"PA_GENDER_FEMALE" = "Женский";
+"PA_EMPTY_FIELD" = "Поле не заполнено, введите ваши данные пожалуйста!";
+
+"PA_NEXT_STEP" = "Следующий шаг";
+"PA_PREV_STEP" = "Предыдущий шаг";
+"PA_SEND_BUTTON" = "Отправить";
+
+"PA_LEFT_FIO" = "Ф.И.О";
+"PA_LEFT_EMAIL" = "E-mail";
+"PA_LEFT_PHONE" = "Номер телефона";
+"PA_LEFT_GENDER" = "Пол";
+"PA_LEFT_BIRTH" = "Дата рождения";
+"PA_LEFT_PASSPORT" = "Серия/номер паспорта";
+"PA_LEFT_PASS_GIVEN_WHO" = "Кем выдан";
+"PA_LEFT_LIVE_PLACE" = "Место жительства";
+"PA_LEFT_PASS_GIVEN_DATE" = "Дата выдачи паспорта";
+"PA_LEFT_PASS_TILL_DATE" = "Действительно до";
+
+"PA_HOLDER" = "Введите фамилию, имя и отчество";
+"PA_HOLDER" = "Введите E-mail";
+"PA_HOLDER" = "+998...";
+"PA_HOLDER" = "Введите дату рождения";
+"PA_HOLDER" = "Введите серию и номер";
+
+"PA_DATE_PICKED" = "Выбрана дата : ";
+
+"PA_FILL_EMPTY_FIELD" = "Заполните пустое поле пожалуйста!";
+"PA_FILL_INCORRECT" = "Поле заполнено не верно!";
+"PA_FILL_GENDER" = "Выберите половую пренадлежность!";
+"PA_FILL_DATE" = "Выберите дату пожалуйста!";
+
+"PA_FILL_FROM_TABLE" = "Выберите значение из таблицы!";
+"PA_FILL_ADD" = "Добавьте файл!";
+
+"PA_FILL_FIELD" = "Поле не заполнено, введите ваши данные пожалуйста!";
+
+"PA_PICK_SCOPE" = "Сфера обращения";
+"PA_PICK_TYPE" = "Вид обращения";
+"PA_PICK_VISIBILITY" = "Видимость заявки";
+"PA_PICK_THEME" = "Тема обращения";
+"PA_PICK_TEXT" = "Текст обращения";
+"PA_PICK_FILE" = "Выбрать файл";
+"PA_PICK_RESPONSE_TYPE" = "Способ получения ответа";
+"PA_PICK_" = "Текст обращения";
+"PA_PICK_" = "Текст обращения";
+
+"PA_PICK_HOLDER_" = "Выберите сферу обращения";
+"PA_PICK_HOLDER_" = "Выберите вид обращения";
+"PA_PICK_HOLDER_" = "Выберите фото из галлереи";
+"PA_PICK_HOLDER_" = "Выберите способ получения ответа";
+
+// Settings
+
+"ST_CHANGE_LANG" = "Сменить язык";
+"ST_LANG" = "Язык: ";
+"ST_RUSSIAN" = "Русский";
+"ST_UZBEK" = "Узбекский";
+
+// о приложении
+
+// нужен текст о приложении для MyGov
+
+// AlertView content
+
+"AV_LOADING_DATA" = "Загрузка данных...";
+"AV_CHECK_CONNECTION" = "Проверьте подключение к интернету";
+"AV_CHECK_ID_PROFILE" = "Аккаунт не заполнен полностью.";
+"AV_LOGIN_ERROR" = "Ну удалось авторизоваться в системе.";
+"AV_RATE" = "Обработка оценки...";
+"AV_LOADING_FILE" = "Загрузка файла...";
+"AV_RATE_STATUS_SUCCESS" = "Ваша оценка принята успешно!";
+"AV_RATE_STATUS_NOTALLOWEED" = "К сожалению нельзя оценить не обработанное обращение!";
+"AV_RATE_STSTUS_ALREADY_RATED" = "Вы уже оценили это обращение!";
+"AV_FILE_ACCEPTED" = "Файл успешно принят!";
+"AV_MISSING_FILE" = "Файл отсутствует!";
+"AV_NOT_PROCESSED_YET" = "Обращение еще не обработано!";
+"AV_FILE_NOT_EXIST" = "Файл отсутствует!";
+"AV_FILE_EMPTY_OR_NOT_EXIST" = "Файл отсутствует или не активен!";
+"AV_SENDING_APPEAL" = "Отправка...";
+"AV_SENDED_APPEAL_SUCCESS" = "Ваше обращение отправлено успешно!";
+
+"AV_OK" = "OK";
+
+"AV_REMIND" = "Оповещение";
+
+"AV_ERROR_TITLE" = "Ошибка";
+
+"AV_MAX_GOVERMENT_NUMBER" = "Максимальное количество выбранных гос. органов равняется 5";
+//
+
+
+// Navigation bar titles
+"MAIN_TITLE_MENU" = "Единый портал государственных интерактивных услуг";
+"NT_HISTORY" = "История обращений";
+"AB_TITLE" = "О приложении";
+
